@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: white;
+    font-family: "Nunito Sans", "Helvetica", "Arial", sans-serif;;
+    overflow-x: hidden;
+}
+/* EL HEADER ES STICKY */
+main{
+    background-color: black;
+}
+section#hamburguesa{  
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+#rotBuger{
+    position:absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+section#ofertas{
+    position: relative;
+    background-image: url("https://www.goiko.com/es/wp-content/uploads/2024/10/Carrusel_2x1.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px white;
+}
+section#ofertas > div{
+    margin: 2.5%;
+}
+.esquinaAbaIzq {
+    align-self: end;
+    
+}
+.esquinaAbaIzq > p{
+    font-size: 1.25rem;
+}
+.esquinaAbaIzq > h2{
+    font-size: 7rem;
+}
+.esquinaAbaIzq > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.esquinaAbaIzq > a > svg{
+    height: 3%;
+    width: 3%;
+}
+.esquinaArriDer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.esquinaArriDer > i {
+    overflow-y: hidden;
+    margin-left: 10px;
+}

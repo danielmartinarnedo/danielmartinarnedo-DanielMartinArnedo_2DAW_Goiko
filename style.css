@@ -67,3 +67,13 @@ section#ofertas > div{
     overflow-y: hidden;
     margin-left: 10px;
 }
+section#carta{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+section#carta img{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    border-top: solid 1px white ;
+    border-bottom: solid 1px white ;
+}

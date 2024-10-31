@@ -10,6 +10,14 @@
 main{
     background-color: black;
 }
+button{
+    border: 2px solid white;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: 10px 15px;
+}
 section#hamburguesa{  
     position: relative;
     height: 100vh;
@@ -76,4 +84,27 @@ section#carta img{
     padding-bottom: 2.5vh;
     border-top: solid 1px white ;
     border-bottom: solid 1px white ;
+}
+section#menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+section#menu > .menuItem{
+    width: 40vh;
+}
+section#benefits{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+section#benefits>div{
+    margin-right: 10vw;
+}
+section#benefits>div>h2{
+    font-size: 4rem;
+}
+section#benefits>div>p{
+    margin:1vh 0;
 }

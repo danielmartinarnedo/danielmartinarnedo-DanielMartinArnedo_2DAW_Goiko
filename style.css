@@ -87,17 +87,29 @@ section#carta img{
 }
 section#menu{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    margin: 10vh .5vw;
 }
 section#menu > .menuItem{
-    width: 40vh;
+    width: 30%;
+    
+}
+section#menu > .menuItem:nth-child(1){
+    margin: 0 1.5%;
+}
+section#menu > .menuItem > img {
+    width: 100%;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+section#menu > .menuItem > h3{
+    
 }
 section#benefits{
     display: flex;
     justify-content: center;
     align-content: center;
-    
+
 }
 section#benefits>div{
     margin-right: 10vw;

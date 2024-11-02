@@ -110,6 +110,20 @@ section#menu > .menuItem > p{
     font-size: 1.25rem;
     color: gray;
 }
+section#kevin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 4vw;
+}
+section#kevin > h2{
+    font-size: 7rem;
+}
+section#kevin > img{
+    width: 100%;
+}
 section#benefits{
     display: flex;
     justify-content: center;
@@ -124,4 +138,38 @@ section#benefits>div>h2{
 }
 section#benefits>div>p{
     margin:1vh 0;
+}
+section#benefits > img{
+    width: 100%;
+}
+section#camion{
+    position: relative;
+    overflow: hidden;
+}
+section#camion > video{
+    width: 100%;
+}
+section#camion> div{
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    margin: 2.5%;
+}
+section#camion> div > h2{
+    font-size: 5rem;
+}
+section#camion> div > p{
+    margin: 3vh 0;
+}
+section#camion> div > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section#camion> div > a > svg{
+    height: 3%;
+    width: 3%;
 }

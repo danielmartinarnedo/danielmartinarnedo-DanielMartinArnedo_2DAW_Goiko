@@ -94,7 +94,7 @@ section#menu > .menuItem{
     width: 30%;
     
 }
-section#menu > .menuItem:nth-child(1){
+section#menu > .menuItem:nth-child(2){
     margin: 0 1.5%;
 }
 section#menu > .menuItem > img {
@@ -103,7 +103,12 @@ section#menu > .menuItem > img {
     border-radius: 15px;
 }
 section#menu > .menuItem > h3{
-    
+    font-size: 1.5rem;
+    margin: 1vh 0;
+}
+section#menu > .menuItem > p{
+    font-size: 1.25rem;
+    color: gray;
 }
 section#benefits{
     display: flex;

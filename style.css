@@ -7,6 +7,20 @@
     overflow-x: hidden;
 }
 /* EL HEADER ES STICKY */
+header{
+    background-color: transparent;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+header>div:first-child()>svg{
+    width: 50%;
+}
+header>div>.rojo{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
 main{
     background-color: black;
 }
@@ -114,15 +128,15 @@ section#kevin {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: 0 4vw;
+    align-items: center;
+    margin: 0 15%;
 }
 section#kevin > h2{
-    font-size: 7rem;
+    font-size: 3.25rem;
 }
 section#kevin > img{
-    width: 100%;
+    margin: 2.5% 0 10% 0;
+    width: 80%;
 }
 section#benefits{
     display: flex;
@@ -140,7 +154,7 @@ section#benefits>div>p{
     margin:1vh 0;
 }
 section#benefits > img{
-    width: 100%;
+    width: 80%;
 }
 section#camion{
     position: relative;
@@ -192,5 +206,47 @@ section#goikocina>div.salsaGirar{
     
 }
 section#goikocina>div.panGirar{
+    text-align: center;
+    display: flex;
+}
+section#noticias > div {
+    display: flex;
+    justify-content: center;
+    margin: 10vh .5vw;
+}
+section#noticias > div > .itemNoticia{
+    width: 30%;
     
+}
+section#noticias > div > .itemNoticia:nth-child(2){
+    margin: 0 1.5%;
+}
+section#noticias > div > .itemNoticia > img {
+    width: 100%;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+section#noticias > div > .itemNoticia > h3{
+    font-size: 2rem;
+    margin: 1vh 0;
+}
+section#noticias > div > .itemNoticia > p{
+    font-weight: lighter;
+}
+section#noticias>button{
+    
+}
+footer{
+background-color: white;
+}
+
+footer li{
+    color: black;
+}
+footer>section#listado{
+    display: flex;
+    justify-content: space-between;
+}
+footer>section#chorreo{
+    border-color: black;
 }

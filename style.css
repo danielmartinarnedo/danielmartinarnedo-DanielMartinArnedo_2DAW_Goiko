@@ -204,7 +204,11 @@ section#goikocina>div {
     width: 50%;
     height: 100%;
 }
-
+section#goikocina>div.stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section#goikocina>div.stack img {
     position: absolute;
     top: 50%;

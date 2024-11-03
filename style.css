@@ -199,15 +199,31 @@ section#goikocina>div>h2{
     font-size: 4.5rem;
     margin: 2vh 0;
 }
-section#goikocina>div.burgerGirar{
-    
+section#goikocina>div {
+    position: relative;
+    width: 50%;
+    height: 100%;
 }
-section#goikocina>div.salsaGirar{
-    
+
+section#goikocina>div.stack img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%, -50%); 
 }
-section#goikocina>div.panGirar{
-    text-align: center;
-    display: flex;
+
+section#goikocina>div.stack>.burgerGirar {
+    transform: translate(-50%, -50%) rotate(3deg);
+}
+
+section#goikocina>div.stack>.salsaGirar {
+    width: 25%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+section#goikocina>div.stack>.panGirar {
+    transform: translate(-50%, -50%) rotate(25deg);
 }
 section#noticias{
     display: flex;

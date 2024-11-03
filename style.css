@@ -75,11 +75,11 @@ section#ofertas > div{
     overflow-y: hidden;
     margin-left: 10px;
 }
-section#carta{
+section.linea{
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
 }
-section#carta img{
+section.linea img{
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     border-top: solid 1px white ;
@@ -172,4 +172,25 @@ section#camion> div > a{
 section#camion> div > a > svg{
     height: 3%;
     width: 3%;
+}
+section#goikocina{
+    display: flex;
+    justify-content: center;
+    margin: 15% 0;
+}
+section#goikocina>div>svg{
+    margin-bottom: 10vh;
+}
+section#goikocina>div>h2{
+    font-size: 4.5rem;
+    margin: 2vh 0;
+}
+section#goikocina>div.burgerGirar{
+    
+}
+section#goikocina>div.salsaGirar{
+    
+}
+section#goikocina>div.panGirar{
+    
 }

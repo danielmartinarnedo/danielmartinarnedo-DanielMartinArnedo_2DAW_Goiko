@@ -140,21 +140,23 @@ section#kevin > img{
 }
 section#benefits{
     display: flex;
-    justify-content: center;
     align-content: center;
-
+    padding: 25vh 0;
+    background-image: linear-gradient(to bottom, black, darkred);
 }
 section#benefits>div{
-    margin-right: 10vw;
+    align-self: center;
+    margin-left: 7.5%;
 }
 section#benefits>div>h2{
     font-size: 4rem;
 }
 section#benefits>div>p{
-    margin:1vh 0;
+    margin:3vh 0;
 }
-section#benefits > img{
-    width: 80%;
+section#benefits>div > img{
+    height: 80%;
+    width: auto;
 }
 section#camion{
     position: relative;
@@ -209,6 +211,11 @@ section#goikocina>div.panGirar{
     text-align: center;
     display: flex;
 }
+section#noticias{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+}
 section#noticias > div {
     display: flex;
     justify-content: center;
@@ -225,6 +232,8 @@ section#noticias > div > .itemNoticia > img {
     width: 100%;
     border: 2px white solid;
     border-radius: 15px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 section#noticias > div > .itemNoticia > h3{
     font-size: 2rem;
@@ -234,7 +243,10 @@ section#noticias > div > .itemNoticia > p{
     font-weight: lighter;
 }
 section#noticias>button{
-    
+    align-self: center;
+    padding: 1% 2%;
+    font-weight: bolder;
+    font-size: 1.25rem;
 }
 footer{
 background-color: white;

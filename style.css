@@ -4,17 +4,13 @@
     box-sizing: 0;
     color: white;
     font-family: "Nunito Sans", "Helvetica", "Arial", sans-serif;;
-    overflow-x: hidden;
 }
 /* EL HEADER ES STICKY */
 header{
-    background-color: transparent;
-    margin-top: 10%;
+    background-color: black;
     display: flex;
     justify-content: space-between;
-}
-header>div:first-child()>svg{
-    width: 50%;
+    
 }
 header>div>.rojo{
     background-color: red;
@@ -39,7 +35,8 @@ section#hamburguesa{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
-    margin: 10% 0;
+    padding: 5% 0;
+    overflow-x: hidden;
 }
 #rotBuger{
     position:absolute;
@@ -215,7 +212,7 @@ section#goikocina>div.panGirar{
 section#noticias{
     display: flex;
     flex-direction: column;
-    margin-bottom: 15%;
+    padding-bottom: 15%;
 }
 section#noticias > div {
     display: flex;

@@ -39,6 +39,7 @@ section#hamburguesa{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    margin: 10% 0;
 }
 #rotBuger{
     position:absolute;
@@ -249,16 +250,48 @@ section#noticias>button{
     font-size: 1.25rem;
 }
 footer{
-background-color: white;
+    margin: 5% 0;
 }
-
-footer li{
-    color: black;
+footer *{
+background-color: white;
+color: black;
 }
 footer>section#listado{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 5%;
 }
-footer>section#chorreo{
-    border-color: black;
+footer>section#listado:not(:first-child){
+    font-size: 1.25rem;
+}
+footer>section#listado>div>ul>li:not(:last-child) { 
+    margin-bottom: 1%;  
+ }
+footer>section#listado>.masGrande{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 20%;
+}
+footer>section#iconLista{
+    display: inline;
+}
+footer>section#iconLista li{
+    display: inline;
+    margin-left: 1%;
+}
+footer>section#chorreo>img{
+    border: 2px black solid;
+}
+footer>section#legal {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+footer>section#legal div {
+    display: inline-block;
+    margin-left: 2%;
+}
+footer>section#legal span {
+    font-weight: bold;
 }
